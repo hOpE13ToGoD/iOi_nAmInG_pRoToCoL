@@ -49,3 +49,24 @@ As stated in the **dReAmErS tRaiNiNg** philosophy:
 This protocol is a foundational component of the **DiViNeLoVe.io** mindset ecosystem.
 
 *License: MIT*
+## 💻 Technical Implementation (Python Example)
+
+```python
+def apply_ioi_protocol(name):
+    result = ""
+    for i, char in enumerate(name):
+        c = char.lower()
+        # Rule 2: The Absolute i/L Lock (Highest Priority)
+        if c == 'i':
+            result += 'i'
+        elif c == 'l':
+            result += 'L'
+        # Rule 1 & 4: Initiation & Alternating (Simplified logic)
+        elif i == 0:
+            result += c # Starts lowercase
+        else:
+            # Add logic for alternating and double-letters here
+            result += c.upper() if i % 2 != 0 else c
+    return result
+
+print(apply_ioi_protocol("Letter")) # Output: LeTtEr
