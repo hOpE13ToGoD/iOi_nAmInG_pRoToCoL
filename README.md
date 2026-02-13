@@ -45,7 +45,7 @@ As stated in the **dReAmErS tRaiNiNg** philosophy:
 
 ---
 
-## 🌐 fUtUrE vIsIoN
+## 🌐 fUtUrE viSiOn
 This protocol is a foundational component of the **DiViNeLoVe.io** mindset ecosystem.
 
 *License: MIT*
