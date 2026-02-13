@@ -1,6 +1,6 @@
 # 🛡️ iOi_nAmiNg_pRoToCoL
 
-> **tHe visUaL sEcUritY sTaNdArD fOr hUmAn iDeNtitY.**
+> **tHe visUaL sEcUriTy sTaNdArD fOr hUmAn iDeNtiTy.**
 > *aRcHiThCtEd bY: hOsSaM eLdiN eLsAyEd oMaR aMrO iSmAiL*
 
 ---
