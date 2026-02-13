@@ -1,11 +1,11 @@
 # 🛡️ iOi_nAmiNg_pRoToCoL
 
-> **tHe vIsUaL sEcUrItY sTaNdArD fOr hUmAn iDeNtItY.**
-> *aRcHithEcTeD bY: hOsSaM eLdiN eLsAyEd oMaR aMrO iSmAiL*
+> **tHe visUaL sEcUritY sTaNdArD fOr hUmAn iDeNtitY.**
+> *aRcHiThCtEd bY: hOsSaM eLdiN eLsAyEd oMaR aMrO iSmAiL*
 
 ---
 
-## 📜 tHe mIsSiOn
+## 📜 tHe misSiOn
 In official databases (Customs, Banking, Traffic), names suffer from **Homoglyph Ambiguities** (L vs I) and **Auto-Correct Corruption**.
 This protocol transforms a name from a "Text String" into a **"Visual Pattern"** that demands attention.
 
@@ -14,9 +14,9 @@ As stated in the **dReAmErS tRaiNiNg** philosophy:
 
 ---
 
-## ⚙️ tHe aLgOrItHm (cOrE rUlEs)
+## ⚙️ tHe aLgOriThM (cOrE rUlEs)
 
-### 1. iNvErSe iNiTiAtIoN
+### 1. iNvErSe iNiTiAtiOn
 * **Rule:** The string MUST start with a **lowercase** letter.
 * **Why:** Breaks the "Auto-Correct" habit and flags the text as case-sensitive code.
 
@@ -25,7 +25,7 @@ As stated in the **dReAmErS tRaiNiNg** philosophy:
 * **Rule B:** Letter **'L'** must ALWAYS be **UPPERCASE** (`L`).
 * **Result:** `Ismail` becomes `iSmAiL`. **Zero ambiguity.**
 
-### 3. dOuBlE-lEtTeR dEcOnFLiCtIoN
+### 3. dOuBLE-LEtTeR dEcOnFLiCtioN
 * **Rule:** Consecutive identical letters must switch case to force a conscious keystroke.
 * **Example:** `ss` becomes `sS`.
 
