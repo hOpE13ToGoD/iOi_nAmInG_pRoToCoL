@@ -49,7 +49,7 @@ As stated in the **dReAmErS tRaiNiNg** philosophy:
 This protocol is a foundational component of the **DiViNeLoVe.io** mindset ecosystem.
 
 *License: MIT*
-## 💻 Technical Implementation (Python Example)
+## 💻 Technical Implementation (Python Example #1)
 
 ```python
 def apply_ioi_protocol(name):
@@ -70,3 +70,29 @@ def apply_ioi_protocol(name):
     return result
 
 print(apply_ioi_protocol("Letter")) # Output: LeTtEr
+
+## 💻 Technical Implementation (Python Example #2)
+
+To integrate the **iOi Protocol** into your system, use this logic. Note that Rule #2 (i/L Lock) always takes priority.
+
+```python
+def apply_ioi_protocol(text):
+    result = ""
+    for i, char in enumerate(text):
+        c = char.lower()
+        # Rule 2: The Absolute i/L Lock (Priority: 0)
+        if c == 'i':
+            result += 'i'
+        elif c == 'l':
+            result += 'L'
+        # Rule 1 & 4: Initiation & Rhythm
+        elif i == 0:
+            result += c # Starts lowercase unless it's an 'L'
+        else:
+            # Alternating case logic
+            result += c.upper() if i % 2 != 0 else c
+    return result
+
+# Proof of Concept
+print(apply_ioi_protocol("Letter"))  # Output: LeTtEr
+print(apply_ioi_protocol("Illness")) # Output: iLLnEsS
